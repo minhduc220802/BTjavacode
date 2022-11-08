@@ -1,0 +1,11 @@
+1.
+- lớp
+- lớp
+- phương thức
+- đối tượng
+- biến thực thể
+- phương thức
+- phương thức
+- phươgn thức
+- bién thực thể
+- đối tượng

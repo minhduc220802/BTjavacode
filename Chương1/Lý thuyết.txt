@@ -1,0 +1,11 @@
+1.
+a, Đối tượng
+b, Trạng thái
+2.
+trừu tượng hóa
+3.
+Đa hình
+4.
+thừa kế
+5.
+che giấu thông tin
