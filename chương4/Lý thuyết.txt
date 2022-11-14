@@ -1,0 +1,15 @@
+1.
+a, số
+b, kí tự
+c, kiểu dữ liệu cơ bản và tham chiếu đối tượng
+2.
+a, đúng
+b, đúng
+c, sai
+d, đúng
+3.
+  Biến thực thể dùng để :
+   +, giữ các giá trị phải được tham chiếu bởi nhiều phương thức, constructor hoặc block, hoặc các phần chủ yếu của trạng thái đối tượng phải hiện diện trong lớp đó.
+   +, hiển thị trong tất cả các phương thức, constructor hoặc block trong lớp. Tuy nhiên khả năng hiển thị các lớp con có thể được cung cấp cho biến này bằng cách sử dụng Access modifier.
+   +, truy cập trực tiếp bằng cách gọi tên biến trong lớp.
+
