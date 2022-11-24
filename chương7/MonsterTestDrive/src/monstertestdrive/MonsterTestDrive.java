@@ -18,20 +18,29 @@ public class MonsterTestDrive {
         ma[0] = new Vampire();
         ma[1] = new Dragon();
         ma[2] = new Monster();
+        
+        ma[2].frighten();
         ma[1].frighten();
+        ma[0].frighten();
+        
         // TODO code application logic here
     }
 }
 class Monster{
     public void frighten(){
         System.out.println("a bite?");
-        System.out.println("breath fire");
-        System.out.println("arrgh");
     }
     // insert code here
 }
 class Vampire extends Monster {
+    public void frighten(){
+        System.out.println("arrrg");
+    }
     // insert code here
 }
 class Dragon extends Monster {
+    boolean frighteen(int degree) {
+        System.out.println("breath fire");
+        return true;
     }
+}
