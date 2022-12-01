@@ -1,0 +1,52 @@
+1.
+a, trừu tượng
+b, cụ thể
+c, phương thức trừu tượng
+d, abstract
+
+2.
+a, đúng
+b, đúng
+
+3.
+- phương thức trừu tượng là các phương thức chỉ có phần tên chứ không có phần thân, phía sau tên phương thức là dấy chấm phẩy
+- mô tả về 1 lớp hình dạng gồm (hình chũ nhật, hình tròn, hình tam giác) có 1 phương thức là notifyAre()
+  +, Một đối tượng của hcn, lớp sẽ cho 1 hcn, 1 hình dạng ta thấy hằng ngày  
+    hinhchunhat obj = new hinhchunhat();
+  +, Một đối tượng của hình tròn, lớp sẽ cho 1 hình tròn, 1 hình dạng ta thấy hằng ngày  
+    hinhtron obj = new hinhtron();
+  +, Nhưng 1 đối tượng calss hinhdang sẽ trông như nào?
+    hinhdang obj = hình dạng();
+Lớp hình dạng đạt sự kế thừa và đa hình nhưng không được xây dựng và khởi tạo. Các lớp có thể gắn nhãn abstract. Một lớp trừu tượng k thể khởi tạo.
+
+4.
+- lớp trừu tượng:
+  +, thể hiện tính trừu tượng <100%
+  +, có thể có các phương thức abstract và non-abstract, các biến final, non-final, static, non-static, phương thức static, phương thức main, constructor
+  +, k hỗ trợ đa kế thừa
+  +, từ khóa abstract được dùng để khai báo lớp trừu tượng
+  +, có thể cung cấp trình triển khai của Interface
+  +, sử dụng khi chúng ta chỉ có thể hoàn thành 1 vài chức năng chuẩn của hệ thống, 1 vài chức năng của extends cần phải hoàn thành
+- interface:
+  +, thể hiện tính trừu tượng 100%
+  +, chỉ có các biến static final, không thể có các phương thức static, main, cóntructor
+  +, hỗ trợ đa kế thừa
+  +, từ khóa interface được sử dụng để khai báo ỉnterface
+  +,không cung cấp trình triển khai cụ thể của lớp astract
+  +, sử dụng khi chúng ta muốn tạo dựng 1 bộ khung chuẩn gồm các chức năng mà tất cả module/project cần phải có
+
+5.
+- Đa hình được hiểu như là có khả năng sử dụng nhiều hình thức của 1 kiểu mà không cần phải quan tâm đến từng chi tiết.
+
+6.
+
+7.
+- Vd: tổng đài điện thoại gởi cho máy điện thoại chúng ta 1 tín hiệu cuộc gọi. 
+Tổng đài k quan tâm máy của ta là loại nào, các thông tin về điện thoại của ta k có ý nghĩa j với tổng đài.
+Tổng đài chỉ biết 1 kiểu cơ bản là điện thoại và điện thoại này biết cách báo chuông.
+Còn việc báo chuông như nào thì tổng đài k quan tâm.
+Đây chính là đa hình.
+- Lập trình tổng quát mang lại những lợi ích:
+  +, giúp hàm có thể sử dụng với nhiều kiểu dữ liệu khác nhau
+  +, dữ liệu được truyền vào 1 cách tổng quát thông qua địa chỉ và kích thước kiểu dữ liệu
+  

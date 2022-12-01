@@ -1,0 +1,40 @@
+1.
+- phương thức
+- giá trị trả về
+- giá trị trả về
+- đóng gói
+- truyền bằng giá trị
+- private
+- phương thứ set
+- phương thức
+- public
+- 
+- 
+- private
+
+2.
+a, 
+b,
+
+3.
+a, đúng
+b, đúng
+c, đúng
+d, đúng
+e, 
+f, đúng 
+
+4.
+- biến địa phương: 
+  +, thuộc về 1 phương thức - nới khai báo nó
+  +, được sinh ra khi phương thức được gọi và dòng lệnh khai báo nó được thực thi
+  +, hết hiệu lực khi ra ngoài phạm vi-kết thúc khối lệnh khai báo nó hoặc khi phương thức kết thúc
+- biến thực thể:
+  +, thuộc về một thực thể - đối tượng chủ của nó
+  +, được tạo ra khi đối tượng được tạo ra
+  +, hết hiệu lực khi đối tượng đó bị hủy
+5,
+- 
+- Tham số là thứ ta điền khi gọi hàm. Những gì ta đặt trong đó là đối số, đối số là giá trị của tham số
+6,
+- 

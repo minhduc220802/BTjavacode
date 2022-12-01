@@ -1,0 +1,10 @@
+1.
+a, chuyên biệt hóa
+b, thừa kế
+c, thiết kế cây kế thừa
+
+2.
+a, đúng
+b, đúng
+c, sai
+d, đúng
