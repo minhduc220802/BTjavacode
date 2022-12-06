@@ -1,0 +1,16 @@
+1.
+- biến lớp
+- final
+
+2.
+a, đúng
+b, đúng
+c, đúng
+d, sai
+e, sai
+f, đúng
+g, đúng
+h, đúng
+i, sai
+j, đúng
+k, đúng

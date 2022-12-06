@@ -1,0 +1,27 @@
+1.
+- người dùng nhập dữ liệu k hợp lệ
+- lỗi code
+- mở file k hớp lệ
+- lỗi thiết bị
+- giới hạn phần cứng, hết bộ nhớ
+
+2.
+- được thực thi
+
+3.
+- thì khối lệnh catch sẽ bỏ qua
+
+4.
+- có thể sử dụng nhiều khối catch với 1 khói try duy nhất => vẫn thực thi
+
+5.
+- khối finally dùng để thực thi các phần code quan trọng như đóng kết nối, đóng stream,...khối finally luôn luôn được thực thi dù cho exception có được xứ lý hay không 
+
+6.
+-
+
+7.
+a, sai
+b, 
+c,
+
