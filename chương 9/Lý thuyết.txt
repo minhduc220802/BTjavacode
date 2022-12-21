@@ -5,11 +5,10 @@ c, đúng
 
 2.
 - từ khóa new dùng để cấp phát bộ nhớ cho đối tượng hay nói cách khác là khởi tạo đối tượng
-- 
+- nó sẽ khởi tạo 1 object rỗng và gán cho this, các câu lệnh trong thân hàm được thực thi, thường là cập nhật this hoặc thêm các thuộc tính cho this, trả về giá trị của this
 
 3.
 - hàm khởi tạo mặc định là hàm do trình biên dịch sẽ viết cho ta khi ta không viết và hàm khởi tạo mà trình biên dịch tự tạo ra có nội dung rỗng.
 - khi lớp đó không có hàm khởi tạo do lập trình viên viết thì trình biên dịch sẽ cung cấp 1 hàm khởi tạo mặc định cho lớp đó
 
 4.
--

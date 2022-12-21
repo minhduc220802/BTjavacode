@@ -22,6 +22,17 @@
 
 7.
 a, sai
-b, 
-c,
+b, đúng
+c, đúng
+d, đúng
+e, đúng
+f, sai
+g, đúng
+h, đúng
+i, sai
+j, đúng
+k, sai
+l, đúng
+m, đúng
+n, đúng
 

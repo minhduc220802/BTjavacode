@@ -1,0 +1,16 @@
+1.
+a, đúng
+b, đúng
+c, đúng
+d, sai
+e,
+f,
+g, đúng
+h,
+i,
+j,
+k, đúng
+l, đúng
+m, đúng
+n, đúng
+o,
