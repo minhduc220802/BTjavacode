@@ -15,14 +15,12 @@ public class MonsterTestDrive {
      */
     public static void main(String[] args) {
         Monster[] ma = new Monster[3];
-        ma[0] = new Vampire();
+        ma[0] = new Monster();
         ma[1] = new Dragon();
-        ma[2] = new Monster();
-        
-        ma[2].frighten();
-        ma[1].frighten();
-        ma[0].frighten();
-        
+        ma[2] = new Vampire();
+        for(int i=0;i<3;i++){
+            ma[i].frighten();
+        }
         // TODO code application logic here
     }
 }
@@ -36,11 +34,9 @@ class Vampire extends Monster {
     public void frighten(){
         System.out.println("arrrg");
     }
-    // insert code here
 }
 class Dragon extends Monster {
-    boolean frighteen(int degree) {
+    public void frighten(){
         System.out.println("breath fire");
-        return true;
     }
 }
