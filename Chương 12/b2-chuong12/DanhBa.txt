@@ -1,0 +1,3 @@
+Ten: A, DiaChi: hanam, SDT: 123
+Ten: B, DiaChi: hanoi, SDT: 234
+Ten: C, DiaChi: namdinh, SDT: 345

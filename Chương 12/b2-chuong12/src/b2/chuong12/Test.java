@@ -17,7 +17,20 @@ public class Test {
     static ContactList cl = new ContactList();
     static String ten, diachi, sdt;
     static Scanner scanner = new Scanner(System.in);
-    
+    public void DanhBa(List<Contact> list){
+        try{
+        FileWriter fw = new FileWriter("DanhBa.txt");
+        BufferedWriter bw = new BufferedWriter(fw);
+        for(Contact o : list){
+            bw.write(o.toString());
+            bw.newLine();
+        }
+        bw.close();
+        fw.close();
+        }
+        catch(IOException ex){
+        }
+    }
     
     static void menu(){
         System.out.println("Danh Ba Dien Thoai\n");
@@ -30,19 +43,6 @@ public class Test {
      * @param args the command line arguments
      */
     public static void main(String[] args){
-        Contact c  = new Contact(" A"," hanam"," 123");
-        Contact c1  = new Contact(" B"," hanoi"," 234");
-        List<Contact> list = new ArrayList<>();
-        list.add(c);
-        list.add(c1);
-        try{
-            FileWriter fw = new FileWriter("DanhBaDienThoai.txt");
-            fw.write("Danh ba Dien Thoai: ");
-            fw.close();
-            
-        }
-        catch(Exception e){
-        }
         
         menu();
         while (true){

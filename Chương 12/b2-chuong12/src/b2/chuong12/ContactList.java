@@ -4,6 +4,9 @@
  */
 package b2.chuong12;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -15,6 +18,7 @@ import java.util.List;
  */
 public class ContactList {
     ArrayList<String> ContactList = new ArrayList();
+
     void Them(String ten, String diachi, String sdt){
         boolean them = false;
         for(String s : ContactList){
